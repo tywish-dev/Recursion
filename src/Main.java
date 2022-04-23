@@ -18,6 +18,7 @@ public class Main {
             return 1;
         }
 
+        // This line is how recursion works
         return (num * recursiveFactorial(num - 1));
     }
 
